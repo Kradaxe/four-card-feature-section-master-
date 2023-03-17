@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+
+    background: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+  
+
+}
+
+.main{
+    
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+    margin-bottom: 200px;
+    
+
+}
+
+.inside{
+
+    height: 690px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 30%;
+    min-width: 600px;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.inside p{
+
+    
+    margin-left: 2px;
+    
+
+}
+.inside h1{
+
+    
+    margin-left: 2px;
+    
+
+}
+
+.inside text p{
+
+    text-align: right;
+    margin-right: 20px;
+    
+}
+
+.a{
+
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.b{
+
+    font-weight: 500;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+
+}
+
+.c{
+
+    padding-top: 20px;
+    text-align: center;
+}
+
+p {
+
+    color: hsl(0, 0%, 58%);
+    font-size: 15px;
+    
+}
+
+.supervisor, .calc, .teambuilder,.karma{
+
+    padding: 30px;
+    background: #fff;
+    text-align: left;
+    max-width: 400px;
+
+}
+
+.calc,.supervisor{
+
+    margin-top: 400px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.main img{
+
+    float: right;
+
+}
+
+.teambuilder{
+    
+    box-shadow: 0px 0px 10px #806b6b;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: hsl(0, 78%, 62%);
+    margin-top: 70px;
+    padding-bottom: 30px;
+    
+
+}
+.calc{
+    box-shadow: 5px 5px 15px #806b6b;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: hsl(212, 86%, 64%);
+    margin-left: -90px;
+}
+.karma{
+    box-shadow: 5px 5px 15px #806b6b;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: hsl(34, 97%, 64%);
+    margin-top: 30px ;
+    padding-bottom: 30px;
+}
+.supervisor{
+    
+    box-shadow: 5px 5px 15px #806b6b;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: hsl(180, 62%, 55%);
+    margin-right: -90px;
+    min-width: 350px;
+    min-height: 250px;
+    
+}
+
+.supervisor h1{
+
+    font-size: 20px;
+
+}
+.teambuilder h1{
+
+    font-size: 20px;
+
+}
+.calc h1{
+
+    font-size: 20px;
+
+}
+.karma h1{
+
+    font-size: 20px;
+
+}
+
+.main img{
+
+    margin-top: 55px;    
+
+}
+
+
+
+
+
+
+
+
+
